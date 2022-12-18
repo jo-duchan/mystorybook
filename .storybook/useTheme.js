@@ -1,9 +1,6 @@
-import { createGlobalStyle, css } from "styled-components";
+import { GlobalStyle } from "styles/common";
 
 export const useTheme = (StoryFn) => {
-  const GlobalStyle = createGlobalStyle`
-    `;
-
   return (
     <>
       <GlobalStyle />
