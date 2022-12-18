@@ -146,12 +146,28 @@ const Secondary = css`
   color: ${ColorSystem.Primary[600]};
   border: 1px solid ${ColorSystem.Neutral[300]};
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(33, 115, 223, 0.7);
+    border-radius: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+    transition-property: opacity;
+  }
+
   &:hover {
     background: ${ColorSystem.Neutral[100]};
   }
 
-  &:focus {
-    border: 2px solid rgba(33, 115, 223, 0.7);
+  &:focus::before {
+    opacity: 1;
   }
 
   &:disabled {
