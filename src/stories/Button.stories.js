@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import Button from "components/Button";
 
 export default {
@@ -7,11 +6,7 @@ export default {
 };
 
 function StoryBook({ ...args }) {
-  return (
-    <Container>
-      <Button {...args} />
-    </Container>
-  );
+  return <Button {...args} />;
 }
 
 export const Default = StoryBook.bind({});
@@ -30,5 +25,3 @@ Default.argTypes = {
     control: "radio",
   },
 };
-
-const Container = styled.div``;
