@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { action } from "@storybook/addon-actions";
 import Toggle from "components/Toggle";
 
 export default {
@@ -6,21 +7,19 @@ export default {
   title: "Toggle",
 };
 
-function StoryBook({ ...args }) {
+function StoryBook({ onClick, ...args }) {
   const [checked, setChecked] = useState(false);
+
   const handleCheck = () => {
     setChecked(!checked);
   };
-  return (
-    <Toggle checked={checked} onClick={() => setChecked(!checked)} {...args} />
-  );
+  return <Toggle checked={checked} onClick={() => handleCheck()} {...args} />;
 }
 
 export const Default = StoryBook.bind({});
 
 Default.args = {
   size: "MEDIUM",
-  checked: false,
 };
 
 Default.argTypes = {
