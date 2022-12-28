@@ -17,7 +17,6 @@ interface StyledProps {
 }
 
 function Input({ states, width, label, placeholder, errorText }: InputProps) {
-
   const InputRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {

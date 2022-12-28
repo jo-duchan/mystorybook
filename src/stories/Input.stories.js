@@ -14,7 +14,7 @@ export const Default = StoryBook.bind({});
 Default.args = {
   states: "DEFAULT",
   width: "264px",
-  label: undefined,
+  label: "Label",
   placeholder: "Placeholder",
   errorText: "Error text",
 };
