@@ -1,19 +1,19 @@
-import Input from "components/Input";
+import Textarea from "components/Textarea";
 
 export default {
-  component: Input,
-  title: "Input",
+  components: Textarea,
+  title: "Textarea",
 };
 
 function StoryBook({ ...args }) {
-  return <Input {...args} />;
+  return <Textarea {...args} />;
 }
 
 export const Default = StoryBook.bind({});
 
 Default.args = {
   states: "DEFAULT",
-  width: "264px",
+  size: "MEDIUM",
   label: "Label",
   placeholder: "Placeholder",
   errorText: "Error text",
@@ -22,7 +22,12 @@ Default.args = {
 Default.argTypes = {
   states: {
     defaultValue: "DEFAULT",
-    options: ["DEFAULT", "FOCUSED", "DISABLED", "ERROR", "ERROR_FOCUSED"],
+    options: ["DEFAULT", "DISABLED", "ERROR"],
+    control: "radio",
+  },
+  size: {
+    defaultValue: "MEDIUM",
+    options: ["SMALL", "MEDIUM", "LARGE"],
     control: "radio",
   },
 };
