@@ -19,6 +19,11 @@ Default.args = {
 };
 
 Default.argTypes = {
+  size: {
+    defaultValue: "MEDIUM",
+    options: ["XSMALL", "SMALL", "MEDIUM", "LARGE", "XLARGE"],
+    control: "radio",
+  },
   states: {
     defaultValue: "DEFAULT",
     options: ["DEFAULT", "FOCUSED", "LOADING", "DISABLED"],
