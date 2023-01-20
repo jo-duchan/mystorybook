@@ -5,7 +5,7 @@ export default {
   component: Toggle,
   title: "Toggle",
 };
-// TEST
+
 function StoryBook({ onClick, ...args }) {
   const [checked, setChecked] = useState(false);
 
