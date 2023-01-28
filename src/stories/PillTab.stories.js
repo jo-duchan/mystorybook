@@ -1,23 +1,22 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import PillTab from "components/PillTab";
 
 export default {
-    components: PillTab,
-    title: "PillTab",
+  components: PillTab,
+  title: "PillTab",
 };
 
-function StoryBook({ content, setContent, ...args }) { 
-    const [item, setItem] = useState([
-        { label: "Label01", value: true },
-        { label: "Label02", value: false },
-        { label: "Label03", value: false },
-        { label: "Label04", value: false },
-      ]);
+function StoryBook({ content, setContent, ...args }) {
+  const [item, setItem] = useState([
+    { label: "Label01", value: true },
+    { label: "Label02", value: false },
+    { label: "Label03", value: false },
+    { label: "Label04", value: false },
+  ]);
 
-    return <PillTab content={item} setContent={setItem} { ...args } />
-};
+  return <PillTab content={item} setContent={setItem} {...args} />;
+}
 
 export const Default = StoryBook.bind({});
 
-Default.args = {}
+Default.args = {};
