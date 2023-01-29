@@ -19,6 +19,6 @@ Default.args = {
   states: "DEFAULT",
   label: "Label",
   placeholder: "Placeholder",
-  helpText: "HelpText",
-  errorText: "ErrorText",
+  helpText: "Help Text",
+  errorText: "Error Text",
 };
