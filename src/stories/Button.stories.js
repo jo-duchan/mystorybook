@@ -8,7 +8,7 @@ import { Text } from "styles/typography";
 
 export default {
   component: Button,
-  title: "Button",
+  title: "Components/Button",
 };
 
 function StoryBook({ onClick, ...args }) {

@@ -2,7 +2,7 @@ import Checkbox from "components/Checkbox";
 
 export default {
   components: Checkbox,
-  title: "Checkbox",
+  title: "Components/Checkbox",
 };
 
 function StoryBook({ ...args }) {

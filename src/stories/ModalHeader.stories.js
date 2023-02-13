@@ -5,7 +5,7 @@ import ModalHeader from "components/ModalHeader";
 
 export default {
   components: ModalHeader,
-  title: "ModalHeader",
+  title: "Components/ModalHeader",
 };
 
 function StoryBook({ modal, setModal, ...args }) {

@@ -3,7 +3,7 @@ import PillTab from "components/PillTab";
 
 export default {
   components: PillTab,
-  title: "PillTab",
+  title: "Components/PillTab",
 };
 
 function StoryBook({ content, setContent, ...args }) {

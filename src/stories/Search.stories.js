@@ -3,7 +3,7 @@ import Search from "components/Search";
 
 export default {
   components: Search,
-  title: "Search",
+  title: "Components/Search",
 };
 
 function StoryBook({ ...args }) {

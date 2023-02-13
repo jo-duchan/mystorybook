@@ -2,7 +2,7 @@ import Select from "components/Select";
 
 export default {
   component: Select,
-  title: "Select",
+  title: "Components/Select",
 };
 
 function StoryBook({ option, onChange, ...args }) {

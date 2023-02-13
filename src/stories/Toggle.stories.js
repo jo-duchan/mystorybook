@@ -3,7 +3,7 @@ import Toggle from "components/Toggle";
 
 export default {
   component: Toggle,
-  title: "Toggle",
+  title: "Components/Toggle",
 };
 
 function StoryBook({ onClick, ...args }) {

@@ -2,7 +2,7 @@ import Textarea from "components/Textarea";
 
 export default {
   components: Textarea,
-  title: "Textarea",
+  title: "Components/Textarea",
 };
 
 function StoryBook({ ...args }) {

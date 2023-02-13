@@ -8,7 +8,7 @@ import { Text } from "styles/typography";
 
 export default {
   components: Slider,
-  title: "Slider",
+  title: "Components/Slider",
 };
 
 function StoryBook({ setValue, ...args }) {

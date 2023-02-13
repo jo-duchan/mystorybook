@@ -2,7 +2,7 @@ import Input from "components/Input";
 
 export default {
   component: Input,
-  title: "Input",
+  title: "Components/Input",
 };
 
 function StoryBook({ ...args }) {

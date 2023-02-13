@@ -8,6 +8,28 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      order: [
+        "Core",
+        ["Color System"],
+        "Components",
+        [
+          "Button",
+          "Input",
+          "Textarea",
+          "Select",
+          "Search",
+          "Checkbox",
+          "Toggle",
+          "Chip",
+          "PillTab",
+          "slider",
+          "ModalHeader",
+        ],
+      ],
+    },
+  },
 };
 
 export const decorators = [useTheme];

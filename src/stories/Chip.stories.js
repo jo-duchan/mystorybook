@@ -2,7 +2,7 @@ import Chip from "components/Chip";
 
 export default {
   component: Chip,
-  title: "Chip",
+  title: "Components/Chip",
 };
 
 function StoryBook({ ...args }) {
