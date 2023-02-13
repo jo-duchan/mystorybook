@@ -14,7 +14,7 @@ function StoryBook({ modal, setModal, ...args }) {
     <Container>
       <ModalHeader modal={isModal} setModal={setIsModal} {...args} />
       <Button
-        label="Modal"
+        label="Click Me"
         btnType="SECONDARY"
         size="MEDIUM"
         onClick={() => setIsModal(true)}
