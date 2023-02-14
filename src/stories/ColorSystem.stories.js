@@ -7,6 +7,11 @@ import { Heading, Text } from "styles/typography";
 
 export default {
   title: "Core/Color System",
+  parameters: {
+    options: {
+      showPanel: false,
+    },
+  },
 };
 
 function StoryBook() {

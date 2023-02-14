@@ -9,6 +9,7 @@ export const parameters = {
     },
   },
   options: {
+    showPanel: true,
     storySort: {
       order: [
         "Core",
