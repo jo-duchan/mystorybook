@@ -57,7 +57,7 @@ Default.args = {};
 
 const Container = styled.div`
   display: flex;
-  gap: 100px;
+  gap: 70px;
 `;
 
 const ListWrapper = styled.div`
