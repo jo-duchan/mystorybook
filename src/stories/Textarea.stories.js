@@ -21,12 +21,10 @@ Default.args = {
 
 Default.argTypes = {
   states: {
-    defaultValue: "DEFAULT",
     options: ["DEFAULT", "DISABLED", "ERROR"],
     control: "radio",
   },
   size: {
-    defaultValue: "MEDIUM",
     options: ["SMALL", "MEDIUM", "LARGE"],
     control: "radio",
   },

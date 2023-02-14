@@ -13,7 +13,7 @@ export const parameters = {
     storySort: {
       order: [
         "Core",
-        ["Color System"],
+        ["Color System", "Typography"],
         "Components",
         [
           "Button",

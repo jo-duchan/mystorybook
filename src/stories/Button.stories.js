@@ -34,16 +34,15 @@ Default.args = {
   size: "MEDIUM",
   fixedWidth: false,
   label: "Button",
+  states: "DEFAULT",
 };
 
 Default.argTypes = {
   size: {
-    defaultValue: "MEDIUM",
     options: ["XSMALL", "SMALL", "MEDIUM", "LARGE", "XLARGE"],
     control: "radio",
   },
   states: {
-    defaultValue: "DEFAULT",
     options: ["DEFAULT", "FOCUSED", "LOADING", "DISABLED"],
     control: "radio",
   },

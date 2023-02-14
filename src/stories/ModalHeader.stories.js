@@ -37,7 +37,6 @@ Default.args = {
 
 Default.argTypes = {
   status: {
-    defaultValue: "DEFAULT",
     options: ["DEFAULT", "ICON", "SUCCESS", "ERROR", "PROGRESS"],
     control: "radio",
   },

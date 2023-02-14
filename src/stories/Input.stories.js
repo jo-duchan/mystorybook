@@ -21,7 +21,6 @@ Default.args = {
 
 Default.argTypes = {
   states: {
-    defaultValue: "DEFAULT",
     options: ["DEFAULT", "FOCUSED", "DISABLED", "ERROR", "ERROR_FOCUSED"],
     control: "radio",
   },

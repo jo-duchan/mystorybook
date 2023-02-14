@@ -23,7 +23,6 @@ Default.args = {
 
 Default.argTypes = {
   size: {
-    defaultValue: "MEDIUM",
     options: ["SMALL", "MEDIUM", "LARGE"],
     control: "radio",
   },
