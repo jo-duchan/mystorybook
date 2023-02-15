@@ -67,19 +67,33 @@ export const Default = StoryBook.bind({});
 
 Default.args = {};
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 50px;
+`;
 
-const ContentWrapper = styled.div``;
+const ContentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+`;
 
-const Title = styled.h3``;
+const Title = styled.h3`
+  ${Text.Body600};
+  color: ${ColorSystem.Secondary[600]};
+`;
 
 const List = styled.div`
   display: flex;
+  gap: 100px;
 `;
 
 const Item = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 24px;
 `;
 
 const ItemChild = styled.div`
