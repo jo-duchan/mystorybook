@@ -18,7 +18,6 @@ interface StyledProps {
   size?: Sizes;
   fixedWidth?: boolean;
 }
-// Test
 
 function Button({
   btnType,
