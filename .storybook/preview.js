@@ -18,6 +18,7 @@ export const parameters = {
         [
           "Button",
           "Input",
+          "CopyText",
           "Textarea",
           "Select",
           "Search",
