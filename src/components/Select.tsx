@@ -237,6 +237,8 @@ const InputOuter = styled.div<StyledProps>`
 `;
 
 const InputElement = styled.input`
+  pointer-events: none;
+
   &::placeholder {
     color: ${ColorSystem.Neutral[500]};
   }
